@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codevnes/hocnodejs.git"
+  },
+  "keywords": [
+    "hocnodejs",
+    "learnjs"
+  ],
+  "author": "codevnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codevnes/hocnodejs/issues"
+  },
+  "homepage": "https://github.com/codevnes/hocnodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
